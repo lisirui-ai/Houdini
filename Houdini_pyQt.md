@@ -880,7 +880,7 @@ def on_slider_changed(self, value):
     node.parm("tx").set(float(value))     # 实时将节点 tx 参数同步为滑块当前值
 ```
 
-`**valueChanged` 与 `clicked` 的区别：**
+`valueChanged` 与 `clicked` 的区别：
 
 
 | 信号             | 触发时机        | 适合场景      |
